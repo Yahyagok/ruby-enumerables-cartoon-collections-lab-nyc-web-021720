@@ -37,7 +37,7 @@ def find_the_cheese(box)# code an argument here
 
 cheese_types = ["cheddar", "gouda", "camembert"]
 
-che =  cheese_types.each {|cheese| }
+ cheese_types.each {|cheese| }
  
  if box.any?(cheese)
    cheese
