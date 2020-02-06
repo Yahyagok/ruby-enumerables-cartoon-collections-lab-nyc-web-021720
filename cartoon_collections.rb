@@ -39,7 +39,7 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 
  
  if box.include?(cheese_types)
-   box[0]
+   cheese_types[0]
  else 
    nil 
  end 
