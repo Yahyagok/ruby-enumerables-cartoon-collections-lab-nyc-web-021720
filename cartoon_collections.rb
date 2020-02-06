@@ -10,7 +10,7 @@ end
   # Your code here
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(importances)# code an argument here
   # Your code here
   
   
