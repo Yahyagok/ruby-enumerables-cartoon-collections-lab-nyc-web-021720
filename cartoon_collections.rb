@@ -38,7 +38,7 @@ def find_the_cheese(box)# code an argument here
 cheese_types = ["cheddar", "gouda", "camembert"]
 
  
- if box.include?(cheese_types.map {|chesee| }
+ if box.any? 
    cheese_types[0]
  else 
    nil 
