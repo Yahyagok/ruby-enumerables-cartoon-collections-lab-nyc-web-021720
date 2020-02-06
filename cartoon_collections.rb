@@ -14,9 +14,9 @@ def summon_captain_planet(names)# code an argument here
 
   names.map {|name| name.capitalize }
   
-  importances.collect { |importance| importance + "!" }
+  names.collect { |name| importance + "!" }
   
-  importances
+  names
 
   # Your code here
   
