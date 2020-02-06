@@ -13,6 +13,8 @@ end
 def summon_captain_planet(importances)# code an argument here
 
   importances.map! {|importance| importance.capilatize}
+  
+  importances.collect {
 
   # Your code here
   
