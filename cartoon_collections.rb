@@ -40,7 +40,8 @@ cheese_types = ["cheddar", "gouda", "camembert"]
  
  if box.include?(cheese_types)
    array[0]
- else nil 
+ else 
+   nil 
  end 
    
   # the array below is here to help
