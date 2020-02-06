@@ -38,8 +38,7 @@ def find_the_cheese(box)# code an argument here
 cheese_types = ["cheddar", "gouda", "camembert"]
 
  
- if box.any?
-   cheese_types[0]
+ if box.any?(chesee)
  else 
    nil 
  end 
