@@ -37,14 +37,6 @@ def find_the_cheese(box)# code an argument here
 
 cheese_types = ["cheddar", "gouda", "camembert"]
 
- cheese_types.each {|cheese| }
- 
- if box.any?(cheese)
-   cheese
- else 
-   nil 
- end 
-   
-  # the array below is here to help
+ box.find {|cheese|
   
 end
