@@ -18,7 +18,7 @@ def summon_captain_planet(names)# code an argument here
   
   names.collect { |name| "#{name}!" }
   
-  names
+  
 
   # Your code here
   
