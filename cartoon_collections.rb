@@ -10,9 +10,9 @@ end
   # Your code here
 end
 
-def summon_captain_planet(importances)# code an argument here
+def summon_captain_planet(names)# code an argument here
 
-  importances.map! {|importance| importance.capitalize }
+  names.map {|name| name.capitalize }
   
   importances.collect { |importance| importance + "!" }
   
