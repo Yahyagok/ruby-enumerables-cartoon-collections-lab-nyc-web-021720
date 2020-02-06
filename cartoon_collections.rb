@@ -39,6 +39,7 @@ def find_the_cheese(box)# code an argument here
 
  
  if box.include?(cheese_types)
+   
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
