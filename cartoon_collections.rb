@@ -35,10 +35,11 @@ end
 
 def find_the_cheese(box)# code an argument here
 
-
+cheese_types = ["cheddar", "gouda", "camembert"]
 
  
  if box.include?(cheese_types)
+ else nil 
    
   # the array below is here to help
   
