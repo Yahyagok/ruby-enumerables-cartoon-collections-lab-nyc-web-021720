@@ -12,7 +12,7 @@ end
 
 def summon_captain_planet(importances)# code an argument here
 
-  importances.map! {|importance| importance. capitalize }
+  importances.map! {|importance| importance.capitalize }
   
   importances.collect { |importance| importance + "!" }
   
