@@ -40,7 +40,7 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 cheese_types.each {|cheese| }
  
  if box.any?(cheese)
-   
+   cheese
  else 
    nil 
  end 
