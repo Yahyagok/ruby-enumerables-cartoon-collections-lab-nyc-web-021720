@@ -12,11 +12,13 @@ end
 
 def summon_captain_planet(names)# code an argument here
 
+ array = []
+
   names.map {|name| name.capitalize }
   
   names.collect { |name| "#{name}!" }
   
-  names
+  
 
   # Your code here
   
