@@ -12,7 +12,7 @@ end
 
 def summon_captain_planet(importances)# code an argument here
 
-importances.map! {
+importances.map! {|importance|
 
   # Your code here
   
